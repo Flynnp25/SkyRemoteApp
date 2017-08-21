@@ -8,14 +8,15 @@ function goToChannel(firstDigit,secondDigit,thirdDigit) {
 }
 
 function pressPower() {
-    remoteControl.press('power');}
+    remoteControl.press('power');
+}
 
-    
-// Simple - just send a command
-remoteControl.press('power');
+function channelup(){
+    remoteControl.press('channelup');
+}
+
 
 // Cool - send sequences of commands
-//remoteControl.press(['channelup', 'record', 'select']);
 
 // Nice - send commands with a callback
 // remoteControl.press('channelup', function(err) {
