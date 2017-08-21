@@ -1,0 +1,7 @@
+{
+  "name": "SkyRemote",
+  "version": "0.0.1",
+  "dependencies": {
+    "sky-remote": "^1.1.0"
+  }
+}
